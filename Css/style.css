@@ -4,23 +4,39 @@
     margin: 0px;
     padding: 0px;
 } */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* nave releded style */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
@@ -30,75 +46,94 @@ nav{
     padding: 15px 35px;
 }
 
-.nav-title{
+.nav-title {
     color: var(--Dark-01, #181818);
 
-    
+
     font-size: 45px;
-    
+
     font-weight: 800;
-    
+
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
- nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
- }
+}
 
- nav a{
+nav a {
     text-decoration: none;
- }
+}
 
 /* header related style */
-.header{
+.header {
     background-color: #FFF8F3;
-    
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
-.banner{
+.banner {
     /* padding: 30px 30px 150px; */
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+
 }
 
-.banner .profile-pic{
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner .profile-pic {
     width: 500px;
 }
 
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* main section style */
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* about section style */
+.about {
+    padding: 131px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-info{
+    text-align: center;
+}
