@@ -34,6 +34,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .btn-primary {
@@ -48,11 +49,9 @@ nav {
 
 .nav-title {
     color: var(--Dark-01, #181818);
-
-
     font-size: 45px;
-
     font-weight: 800;
+    padding-left: 160px;
 
 }
 
@@ -73,9 +72,9 @@ nav a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 }
 
