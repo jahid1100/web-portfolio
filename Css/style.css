@@ -188,7 +188,44 @@ main>section {
 .resume-item-description {
     color: #757575;
 }
-.downlode-cv{
+
+.downlode-cv {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer section style */
+footer {
+    display: flex;
+    gap: 80px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 180px 150px;
+}
+
+footer .colum {
+    width: 50%;
+}
+
+.contact-contraine{
+    
+}
+
+.contact input[type="text"] , .contact input[type="email"],
+textarea {
+    
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+}
+.social-links a{
+    margin-left: 24px;
+}
+/* footer .fooret-colum .footer-section{
+    text-align: left;
+} */
